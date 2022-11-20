@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    color: black;
+}
+
+.container {
+    border: 1px solid black;
+    width: 29%;
+    height: 273px;
+    /* height: 70%; */
+    position: relative;
+    top: 142px;
+    left: 401px;
+    border-radius: 11px;
+    padding: 35px;
+    background-color: black;
+}
+
+.top {
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    border-radius: 11px;
+}
+
+.name,
+.address,
+.zip {
+    background-color: white;
+    font-size: 24px;
+    /* margin-left: 2px; */
+    margin-bottom: 24px;
+    border-radius: 11px;
+}
+
+.pay {
+    background-color: white;
+    cursor: pointer;
+    padding: 7px;
+    font-size: 15px;
+    position: absolute;
+    top: 420px;
+    left: 579px;
+    border-radius: 10px;
+}
+
+.pay:hover {
+    background-color: #56891f;
+}
